@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/screen_registro/screen_registro.dart';
+import 'package:hello_world/screen_login/screen_registro.dart';
 
 void main() {
-  runApp(const Registro());
+  runApp(const Login());
 }
 
 class MyApp extends StatelessWidget {

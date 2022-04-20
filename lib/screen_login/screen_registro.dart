@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/screen_registro/login.dart';
+import 'package:hello_world/screen_login/login.dart';
 
-class Registro extends StatelessWidget {
-  const Registro({Key? key}) : super(key: key);
+class Login extends StatelessWidget {
+  const Login({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
