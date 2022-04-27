@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/screen_registro/registro.dart';
 
 class ScreenRegistro extends StatelessWidget {
   const ScreenRegistro({Key? key}) : super(key: key);
@@ -11,13 +12,8 @@ class ScreenRegistro extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Registro'),
       ),
-      body: Center(
-        child: ElevatedButton(
-          child: const Text('Regresar'),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
+      body: const Center(
+        child: const RegistroWidget(),
       ),
     );
   }

@@ -43,8 +43,8 @@ class _LoginWidgetState extends State<LoginWidget> {
         children: [
           Padding(
             padding: EdgeInsets.all(16.0),
-            child: const Text('Login',
-                style: const TextStyle(color: Colors.blueAccent, fontSize: 32)),
+            child: Text('Login',
+                style: TextStyle(color: Colors.blueAccent, fontSize: 32)),
           ),
           _paddig(_inputForm(emailController, 'Correo electrónico',
               isPassword: false)),
@@ -53,7 +53,7 @@ class _LoginWidgetState extends State<LoginWidget> {
           Padding(
               padding: EdgeInsets.all(16.0),
               child: ElevatedButton(
-                child: Text(
+                child: const Text(
                   'Login',
                   style: TextStyle(fontSize: 24.0),
                 ),
